@@ -27,7 +27,7 @@ param(
     [string]$SiteKey = "_5SNr5iw9EoKOlpKddtS",
 
     # URL oficial de download do instalador (linha "Resolve Agent" / Spiceworks Agent Shell)
-    [string]$InstallerUrl = "https://download.spiceworks.com/ResolveAgent/current/SpiceworksAgentShell.msi",
+    [string]$InstallerUrl = "https://github.com/urb-iot/agent/blob/main/SpiceworksAgentShell_Collection_Agent.msi",
 
     # Diretório de trabalho para download temporário e logs
     [string]$WorkDir = "$env:ProgramData\SpiceworksAgentDeploy",
